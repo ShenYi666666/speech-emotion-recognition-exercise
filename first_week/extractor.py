@@ -1,5 +1,6 @@
 import os,sys
 import subprocess
+import numpy as np
 def get_filenames(path, shuffle=False, extension='.wav'):
     # get all file names 
     files= os.listdir(path) 
